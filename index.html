@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>aplicacion dos</title>
+
+<!-- grupo CSS -->
+<link rel="stylesheet" href="css/temasapp1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/2.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    	<h1>Celebración de semana santa</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+  </div>
+<div>
+	<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    	<h2>¿qué es la semana santa?</h2>
+    	</a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>¿cómo se calcula la fecha?</h2>
+        </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Los días santos</h2>
+        </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>¿Cómo se celebra en Atlixco?</h2>
+        </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Cuaresma</h2>
+        </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>4 religiones en semana santa</h2>
+        </a>
+    </li>
+    </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+	<div>
+    <h4>Aplicacion Dos</h4>
+    </div>
+    <div>
+    	<img src="imagenes/img.jpg" width="46" height="46">
+    </div>
+    <div>
+       
+       <h4>Daniel Alberto Calderón Pérez</h4>
+    </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>¿QUÉ ES SEMANA SANTA?</h1>
+    </div>
+   <div data-role="content" align="center">
+   <div>
+    <img src="imagenes/1.jpg" width="50%" height="50%">
+   	<h2>Semana santa:</h2>
+    <p>
+    La Semana Santa es la conmemoración anual cristiana de la Pasión, Muerte y Resurrección de Jesús de Nazaret. 
+    </p>
+    <img src="imagenes/3.jpg" width="50%" height="50%">
+    <p>Por eso, es un período de intensa actividad litúrgica dentro de las diversas confesiones cristianas. Da comienzo el Domingo de Ramos y finaliza el Domingo de Resurrección, aunque su celebración suele iniciarse en varios lugares el viernes anterior (Viernes de Dolores) y se considera parte de la misma el Domingo de Resurrección. 
+    </p>
+    <img src="imagenes/2.jpg" width="50%" height="50%">
+    <p>La fecha de la celebración es variable (entre marzo y abril según el año) ya que depende del calendario lunar. La Semana Santa va precedida por la Cuaresma, que finaliza en la Semana de Pasión donde se celebra la eucaristía en el Jueves Santo, se conmemora la Crucifixión de Jesús el Viernes Santo y la Resurrección en la Vigilia Pascual durante la noche del Sábado Santo al Domingo de Resurrección. Durante la Semana Santa tienen lugar numerosas muestras de religiosidad popular a lo largo de todo el mundo, destacando las procesiones y las representaciones de la Pasión.
+    </p>
+    <img src="imagenes/4.jpg" width="50%" height="50%">
+   </div>
+   </div>
+   <div data-role="footer" data-theme="a">
+   	<h4>Aplicacion Uno, DACP</h4>
+    </div>
+   </div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>¿CÓMO SE CALCULA LA FECHA?</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+        <img src="imagenes/6.png" width="50%" height="50%">
+        	<h2>FECHA DE SEMANA SANTA</h2></div>
+            <p>
+            Semana Santa Última semana de la cuaresma, desde el Domingo de Ramos hasta el Domingo de Resurrección, que la iglesia católica dedica a recordar la pasión, muerte y resurrección de Jesús.
+            </p>
+        <img src="imagenes/5.jpg" width="50%" height="50%">
+        </div>
+    <div data-role="footer" data-theme="a">
+    	<h4>Aplicacion Uno, DACP</h4>
+    </div>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>LOS DÍAS SANTOS</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+        	<h2>JUEVES SANTO</h2></div>
+            <p>
+            Este día recordamos la Última Cena de Jesús con sus apóstoles en la que les lavó los pies dándonos un ejemplo de servicialidad. En la Última Cena, Jesús se quedó con nosotros en el pan y en el vino, nos dejó su cuerpo y su sangre. Es el jueves santo cuando instituyó la Eucaristía y el Sacerdocio. Al terminar la última cena, Jesús se fue a orar, al Huerto de los Olivos. Ahí pasó toda la noche y después de mucho tiempo de oración, llegaron a aprehenderlo.
+            </p>
+            <img src="imagenes/jueves.jpg" width="50%" height="50%">
+        </div>
+        <div data-role="content" align="center">
+    	<div>
+        	<h2>VIERNES SANTO</h2></div>
+            <p>
+            Ese día recordamos la Pasión de Nuestro Señor: Su prisión, los interrogatorios de Herodes y Pilato; la flagelación, la coronación de espinas y la crucifixión. Lo conmemoramos con un Via Crucis solemne y con la ceremonia de la Adoración de la Cruz.
+            </p>
+            <img src="imagenes/viernes.jpg" width="50%" height="50%">
+        </div>
+        <div data-role="content" align="center">
+    	<div>
+        	<h2>SABADO DE GLORIA</h2></div>
+            <p>
+            Se recuerda el día que pasó entre la muerte y la Resurrección de Jesús. Es un día de luto y tristeza pues no tenemos a Jesús entre nosotros. Las imágenes se cubren y los sagrarios están abiertos. Por la noche se lleva a cabo una vigilia pascual para celebrar la Resurrección de Jesús. Vigilia quiere decir “ la tarde y noche anteriores a una fiesta.”. En esta celebración se acostumbra bendecir el agua y encender las velas en señal de la Resurrección de Cristo, la gran fiesta de los católicos.
+            </p>
+            <img src="imagenes/sabado.jpg" width="50%" height="50%">
+        </div>
+        <div data-role="content" align="center">
+    	<div>
+        	<h2>DOMINGO DE RESURRECCIÓN</h2></div>
+            <p>
+            Es el día más importante y más alegre para todos nosotros, los católicos, ya que Jesús venció a la muerte y nos dio la vida. Esto quiere decir que Cristo nos da la oportunidad de salvarnos, de entrar al Cielo y vivir siempre felices en compañía de Dios. Pascua es el paso de la muerte a la vida.
+            </p>
+            <img src="imagenes/domingo.jpg" width="50%" height="50%">
+        </div>
+    <div data-role="footer" data-theme="a">
+    	<h4>Aplicacion Uno, DACP</h4>
+    </div>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>CELEBRACIÓN EN ATLIXCO</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+        <p>
+        Entre las tradiciones que han distinguido a Atlixco es la ‘Procesión del Silencio’ en la comunidad de Nexatengo, la cual es realizada por la cofradía de Nazarenos de la entidad y la ‘Procesión de Engrillados’. Cabe mencionar que ambos eventos son actos de penitencia, fe y de arrepentimiento, mismos que se realizarán el próximo 6 de abril a partir de la seis de la mañana en Santa Lucía Cosamaloapan
+        </p>
+            <div data-role="collapsible" data-content-theme="false">
+          <h1>ENGRILLADOS</h1>
+           <div>
+           <p>Una de las tradiciones mas arraigadas en la Semana Santa son los Engrillados en Atlixco
+           </p>
+          <img src="imagenes/a.jpg" width="50%" height="50%"></div>
+           </div>
+            <div data-role="collapsible" data-content-theme="false">
+          <h1>TAPETES DE ACERRÍN</h1>
+           <div>
+           <p>Se utiliza el acerrín pintado con una gran variedad de colores para hacer figuras con él.
+           </p>
+          <img src="imagenes/b.jpg" width="50%" height="50%"></div>
+           </div>
+            <div data-role="collapsible" data-content-theme="false">
+          <h1>CRUZ</h1>
+           <div>
+           <p>Se hace una recreación de como fue el recorrido de Jesucristo con la cruz, la gente se viste como en la época y se definen los papeles para Jesús, maría, etc.
+           </p>
+          <img src="imagenes/c.jpg" width="50%" height="50%"></div>
+           </div>
+            <div data-role="collapsible" data-content-theme="false">
+          <h1>RECORRIDO</h1>
+           <div>
+           <p>Durante la recreación de el recorrido que siguio Jesús, la demás gente lleva cargando algunas de las estatuillas de los santos, conmemorandolos
+           </p>
+          <img src="imagenes/d.jpg" width="50%" height="50%"></div>
+           </div>
+        </div>
+      </div>
+    <div data-role="footer" data-theme="a">
+    	<h4>Aplicacion Uno, DACP</h4>
+    </div>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>CUARESMA</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+        	<h2>¿Qué es lacuaresma?</h2>
+            <p>
+            En la cuaresma recordamos los 40 días que Jesús pasó en el desierto rezando y sin comer para prepararse antes de salir a predicar.
+- Cada año Dios te ofrece la Cuaresma como un tiempo especial para tres propósitos:
+1) Arrepentirte de tus pecados
+2) Hacer penitencia.
+3) Convertirte.
+            </p>
+            <img src="imagenes/a1.jpg" width="50%" height="50%">
+            <h2>ARREPENTIRSE DE SUS PECADOS</h2>
+            <P>
+             Es tiempo de pensar:
+¿ Qué pecados he cometido ?	
+- Que de verdad te duela haber ofendido a Dios que ha sido tan bueno contigo.
+Es tiempo de arrepentirse y pedir perdón. 
+- Si tus faltas son pequeñas, basta con que tú solo le pidas perdón a Dios y le digas que vas a luchar duro para no volverlo a hacer.
+
+- Si tus faltas son graves, debes hacer una 
+CONFESION ; busca al Sacerdote, él es 
+quien puede darte el perdón de Dios.
+- Recuerda que Dios te ama muchísimo y que 
+siempre te perdona.
+            </P>
+            <h2>HACER PENITENCIA:</h2>
+            <p>
+            - Si de verdad te duele haber ofendido a Dios, puedes REPARAR tus faltas, puedes purificar tu alma haciendo sacrificios.
+¿ Qué es hacer un sacrificio ?. Es ofrecer a Dios , porque lo amas, cosas que te cuesten trabajo, como por ejemplo: 
+no comer algo que querías, ayudar a otro en su trabajo, ser amable con el que te cae gordo,etc. Cada uno escoge lo que más le cueste.
+- En estos días de cuaresma piensa cada mañana: 
+¿ Qué sacrificio voy a ofrecer hoy a Dios ?
+            </p>
+            <img src="imagenes/a2.jpg" width="50%" height="50%">
+            <h2>CONVERTIRTE:</h2>
+            <p>
+            - Convertirte es cambiar. Dejar de una vez por todas lo malo y buscar ser mejor.
+¡ Si quieres cambiar, ahora es cuando !
+Para cambiar de verdad, es muy importante que hagas buenos propósitos, que pienses cuales cosas concretas quieres cambiar y luego, cada noche, revises si cumpliste, verás como vas mejorando. 
+- Reza mucho... pídele a Dios su ayuda para cambiar. ¡ Con la ayuda de Dios, puedes lograr cualquier cosa !
+            </p>
+            </div>
+        </div>
+    <div data-role="footer" data-theme="a">
+    	<h4>Aplicacion Uno, DACP</h4>
+    </div>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>4RELIGIONES QUE SIGUEN SEMANA SANTA</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+        	<h2>TESTIGOS DE JEHOBÁ</h2>
+            <p>
+            Las procesiones son de los actos religiosos que mayor número de seguidores congrega en Semana Santa. 
+
+La Semana Mayor para los católicos es la época en la que se recuerda y celebra los hechos más relevantes en la vida de Jesús de Nazaret (la Pasión, Muerte y Resurrección), comenzando con el llamado Domingo de Ramos y finalizando el Domingo de Resurrección o también llamado de Pascua. 
+
+Otras religiones, por su parte, consideran que estos días no son el único momento para adorar a Dios. Si bien es cierto que aprovechan la semana para remembrar la pasión de Cristo, lo hacen por medio de otro tipo de actividades. Aunque, en general, consideran que a pesar de sus diferencias de doctrina, el mensaje de Jesús es claro: Vivir en paz, porque una religión sin paz y amor es una iglesia estéril. 
+            </p>
+            <img src="imagenes/b1.jpg" width="50%" height="50%">
+            <h2>CRISTIANOS</h2>
+            <P>
+             Para los miembros de la iglesia cristiana evangélica, la Semana Santa es el tiempo para recordar la muerte de Cristo. Para conmemorarla, se congregan en una jornada de oración y adoración, la cual inicia el Jueves Santo a las 9:00 de la noche y se extiende por 24 horas. 
+
+En esta reunión se dan cita grupos artísticos y musicales, ya que los cristianos creen que “Dios habita en medio de la alabanza”. Además, para ellos es fundamental la vigilia, es decir, pasar una noche en vela y adorando a Dios. 
+
+Con panderos, música y cantos, recuerdan la muerte de Jesucristo. La jornada de adoración comienza el jueves en la noche y termina el viernes. En estas 24 horas, la comunidad cristiana ora por los enfermos y por las necesidades de cada una de las personas que habitan en este mundo. 
+
+Frente a la resurrección de Jesucristo, los cristianos manifiestan que este hecho aún no ha sido confirmado; sin embargo, el domingo, día en que los católicos celebran la resurrección, ellos llevan a cabo una reunión de exaltación. 
+
+En cuanto a la comida y la vestimenta, esta comunidad no tiene restricción a la hora de ingerir carnes rojas, ni de lucir determinados atuendos. 
+
+Nelson González, pastor de la Iglesia Cristiana Filadelfia, señala que esta doctrina comparte las mismas creencias que La Asamblea de Dios, Cuadrangular, Presbiteriana, Casa Sobre la Roca, entre otras congregaciones. 
+
+En lo que respecta a la Semana Santa, indica que conmemoran la muerte del Señor Jesucristo a través de la reflexión individual, para tal fin los días jueves, viernes y domingo tienen encuentros personales. 
+
+“Nosotros invitamos a un pastor para que dicte una serie de conferencias, que confronten a una mejor vida y a una relación con Dios. Paralelo a estas charlas, los miembros de nuestra iglesia preparan obras de teatro, coreografías musicales y otras actividades lúdicas. 
+
+“En realidad esta es una época de integración, esparcimiento y reflexión. Para nosotros todas las semanas son importantes y santas, por eso pensamos que la Semana Santa no es la única fecha en la que debemos alabar a Jesús”, argumentó. 
+
+Algunos miembros de la Iglesia Filadelfia indicaron que, a diferencia de los católicos, durante estos días consumen todo tipo de alimentos, pues desde el punto de vista bíblico, no se contempla este tipo de restricciones. 
+            </P>
+            <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/2.jpg',1)"><img src="imagenes/b2.jpg" width="200" height="166" id="Image21"></a></p>
+            <h2>PENTECOSTALES</h2>
+            <p>
+            La celebración de la Semana Santa para los pentecostales inicia el jueves a las dos de la tarde con un desfile, en el cual reparten volantes, entonan canciones e invitan a toda la comunidad a congregarse en una reunión que tiene lugar en su centro de culto a las seis de la tarde. 
+
+Una vez allí en el templo, dan apertura a la fiesta denominada ‘Levántate, hoy es el día de tu salvación’. En este acto se efectúan bautizos, y llevan a cabo cuatro cultos o reuniones especiales. 
+
+Desde el día jueves se reúnen a alabar a Dios, para ello cuentan con la presencia de grupos musicales, duetos, mariachis y vallenatos, entre otros, porque, en realidad, viven una fiesta. 
+
+El viernes tienen la gran confraternidad, en donde a las 6:00 de la mañana y a las 2:00 y 5:30 de la tarde adoran a Jesús, para reconocerle su grandeza y su poder. Aparte de eso piden por la salud de los enfermos y porque se mejore la situación del mundo, manifestó José Ignacio Sierra. 
+
+De acuerdo con la información suministrada por los pentecostales, en sus encuentros el Espíritu Santo se manifiesta. Quienes asisten y tienen un encuentro personal reciben el don del Espíritu, con la evidencia de hablar en otros idiomas. 
+
+“Aquí nadie se cae o bota espuma por la boca, el Espíritu Santo es algo que hace que la persona conscientemente comienza a proferir palabras en otro idioma, pero esa es la manifestación del gozo de Dios”, mencionó un pastor de esta Iglesia. 
+
+De otra parte, quienes integran esta religión sostienen que existen alimentos prohibidos por las escrituras, tanto para la Semana Santa como para el resto del año, y son tanto aquellos que tienen sangre como la carne de los animales que han sido ahogados. 
+            </p>
+            <img src="imagenes/b3.jpg" width="50%" height="50%">
+            <h2>ADVENTISTAS</h2>
+            <p>
+            En el sentir de los adventistas, la Semana Santa es la conmemoración de la pasión de Cristo; sin embargo, los seis días los trabajan normalmente, además, no tienen prohibición para ingerir alimentos, aunque tienden a ser vegetarianos. 
+
+“Nosotros nos ceñimos a la Biblia y en ella no dice en ninguna parte que debemos descansar; lo que se señala allí es que hay que descansar antes de la preparación, es decir, el viernes. El sábado es el día de nuestro culto. Y el domingo también oramos. 
+
+“Un acto que reviste de mucha importancia es el lavatorio de pies, pero esto lo hacemos cada tres meses; adicionalmente, hacemos una cena con pan y con vino”, dijo Pedro Obando, adventista desde hace 40 años. 
+
+Para los adventistas, “las estaciones del vía crucis son 14 crucecitas de madera, pegadas a las paredes de una iglesia. Los 14 cuadros representan varias escenas de la vida de Cristo camino al calvario que no son estrictamente necesarias. 
+
+Fueron los franciscanos quienes iniciaron la devoción del vía crucis en Italia cerca al año 1350″, complementó. 
+            </p>
+            <img src="imagenes/b4.png" width="50%" height="50%">
+            </div>
+        </div>
+    <div data-role="footer" data-theme="a">
+    	<h4>Aplicacion Uno, DACP</h4>
+    </div>
+    </div>
+</div>
+</body>
+</html>
